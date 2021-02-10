@@ -1,0 +1,46 @@
+
+# Nombre de joueurs par équipe
+players-per-team: 1
+
+# Joueurs minimum
+players-min: 2
+# Temps qu'une partie prend à se lancer
+game-cooldown-full: 11
+# Temps joueurs stricte minimum
+game-cooldown-mini: 60
+
+# Temps avant le redémarrage après une partie
+restart-cooldown: 10
+
+# Configuration des équipes
+teams:
+  red:
+    armorColor: "RED"
+    name: "Rouge"
+    tag: "§c"
+    woolData: 14
+    yaw: 90
+    pitch: 0
+    spawn:
+      x: -201
+      y: 127
+      z: 4
+  blue:
+    armorColor: "BLUE"
+    name: "Bleue"
+    tag: "§9"
+    woolData: 11
+    yaw: -90
+    pitch: 0
+    spawn:
+      x: -222
+      y: 127
+      z: 1
+
+# Configuration des emplacements utilisés par le plugin
+
+locations:
+  lobby:
+    x: 0
+    y: 122
+    z: 0

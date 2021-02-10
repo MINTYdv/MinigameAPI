@@ -1,0 +1,9 @@
+name: LeemonGame
+version: 1.0
+author: [MINTY, Poucy113]
+main: com.minty.leemonmc.games.LeemonGame
+commands:
+  re:
+    description: Replay command
+  replay:
+    description: Replay command
